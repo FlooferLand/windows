@@ -5,3 +5,9 @@
 ::\mail2::yunaflarf2@gmail.com
 ::\mail3::yunaflarf.contact@gmail.com
 ::\moyai:::moyai:
+
+; launch panel
+#p::Run("wox.exe", , "Hide")
+
+; Emoji panel
+#;::Run("", , "Hide")
