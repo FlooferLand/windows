@@ -34,12 +34,12 @@ Add-Content -Path $PROFILE "Set-Alias grep Select-String"
 # Utility
 scoop install "7zip"
 scoop install "git"
+winget install "Microsoft.PowerToys"
 
 # Runtimes and SDKs
 scoop install "windowsdesktop-runtime-lts"
 winget install "Microsoft.DotNet.Runtime.3_1"
 winget install "Microsoft.DotNet.Runtime.8"
-scoop install "everything"  # Dependency for Wox
 
 # Linuxification (Fixing Windows)
 scoop install "neofetch"  # :3
@@ -51,7 +51,6 @@ scoop install "starship"
 scoop install "altdrag"
 scoop install "komorebi"
 scoop install "teracopy-np"
-scoop install "wox"
 scoop install "eartrumpet"
 winget install "rocksdanister.LivelyWallpaper"
 
@@ -77,6 +76,12 @@ Copy-Item "C:/MinGW/bin/gcc.exe" "C:/MinGW/bin/cc.exe"
 # Androeed
 scoop install "adb"
 scoop install "scrcpy"
+
+# Apps
+winget install "Mozilla.Thunderbird"
+
+# Rust tools
+cargo install id3-cli
 
 # Configs
 # Copy-Item -Path ./Menu Settings.xml -Destination "TO DO"  # Open-Shell stores its settings in the registry.. IRREDEEMABLE!
